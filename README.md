@@ -1,4 +1,4 @@
-# Client-Server-Application
+# Client-Server Application
 
 ## Arhitecture
 To start, I will talk about the tcp protocol. My implementation uses a thin client. 
@@ -61,12 +61,12 @@ I tested with valgrind and I got no errors and no memory leaks.
     ````
 #### Running
     ````
-    ./subscriber <ID_Client> <IP_Server> <Port_Server>
-    ./server <PORT>
+    subscriber <ID_Client> <IP_Server> <Port_Server>
+    server <PORT>
     ````
 #### Cleaning
     ````
-    .make clean
+    make clean
     ````
 
 ## Resources used
@@ -85,4 +85,4 @@ https://stackoverflow.com/questions/25195233/time-complexity-of-iterating-throug
 ### Why I double validate data
 https://stackoverflow.com/questions/162159/javascript-client-side-vs-server-side-validation
 
-### Author: Rica Radu-Leonard 2020
+### Author: Rica Radu-Leonard 325CA 2020
