@@ -60,11 +60,13 @@ I tested with valgrind and I got no errors and no memory leaks.
     make build
     ````
 #### Running
+* 
     ````
     subscriber <ID_Client> <IP_Server> <Port_Server>
     server <PORT>
     ````
 #### Cleaning
+* 
     ````
     make clean
     ````
