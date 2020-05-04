@@ -11,14 +11,14 @@ in order to provide real-time feedback and not to send messages to the
 server unnecessarily. Then I validate them once more on the server, to make 
 sure that no malicious message is sent by an application other than the 
 one I implemented. Having valid messages, the server analyzes the messages and 
-sends to the client answers such as (subscribed, unsubscribe, alread_subscribed, not a subscriber). 
+sends to the client answers such as (subscribed, unsubscribed, alread subscribed, not a subscriber). 
 
 ### Safe exiting
 For the exit command, to send all the messages already on the way, 
 I close the write part of the connection (with shutdown), 
 which notifies the server that I have disconnected, 
-and when the client receives the close notification(positioned on system stack 
-after the rest of pending messages) from server I close the client.
+and when the client receives the close notification (positioned in tcp system stack 
+after the rest of pending messages) from the server, I close the client.
 
 ### Message Delimitation Over Tcp
 To delimit the messages on tcp, I used the size field, 
