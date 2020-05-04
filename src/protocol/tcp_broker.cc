@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-// xxx.xxx.xxx.xxx:xxxxx - <50 chars> - STRING - 1500, to be sure we use 1700
+// xxx.xxx.xxx.xxx:xxxxx - <50 chars> - STRING - <max 1500 chars>, to be sure we use 1700
 #define MAX_BUFFER 1700
 
 TcpBroker::TcpBroker() {
