@@ -87,4 +87,4 @@ https://stackoverflow.com/questions/25195233/time-complexity-of-iterating-throug
 ### Why I double validate data
 https://stackoverflow.com/questions/162159/javascript-client-side-vs-server-side-validation
 
-### Author: Rica Radu-Leonard 325CA 2020
+### Author: Rica Radu-Leonard
